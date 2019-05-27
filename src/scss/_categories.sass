@@ -1,0 +1,124 @@
+article
+    margin: 50px $content-pl //переменная $content-pl находится в _main.sass
+    header
+        h1
+            margin-bottom: 30px
+            font-size: 36px
+            color: #a1be07
+        p
+            margin-bottom: 25px
+            font-size: 18px
+            text-align: center
+
+.categories-container
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+    flex-wrap: wrap
+    width: 100%
+.direction
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    align-items: center
+    width: 300px
+    height: 270px
+    margin-bottom: 5%
+    border-radius: 20px
+    background-color: #c0c0c0
+    box-shadow: 0px 6px 2px #c0c0c066  
+    font-size: 22px
+    &:hover
+        cursor: pointer
+        box-shadow: 0px 0px 21px 0px rgba(50, 50, 50, 0.75)  
+    &__txt
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+        height: 30%    
+    &__style
+        display: flex
+        background-image: url("../img/categories/style.png")
+        background-size: cover
+        background-repeat: no-repeat
+        &_txt:before
+            content: ""
+            display: flex
+            width: 60px
+            height: 60px
+            background-image: url("../img/categories/icons/art-icon.png")
+            background-size: cover
+            background-repeat: no-repeat
+            transform: translateX(-45px)
+    &__beauty
+        display: flex
+        background-image: url("../img/categories/beauty.png")
+        background-size: cover
+        background-repeat: no-repeat
+        &_txt:before
+            content: ""
+            display: flex
+            width: 60px
+            height: 60px
+            background-image: url("../img/categories/icons/beauty-icon.png")
+            background-size: cover
+            background-repeat: no-repeat
+            transform: translateX(-18px)
+    &__excursion
+        display: flex
+        background-image: url("../img/categories/excursion.png")
+        background-size: cover
+        background-repeat: no-repeat
+        &_txt:before
+            content: ""
+            display: flex
+            width: 60px
+            height: 60px
+            background-image: url("../img/categories/icons/excursion-icon.png")
+            background-size: cover
+            background-repeat: no-repeat
+            transform: translateX(-60px)
+    &__art
+        display: flex
+        background-image: url("../img/categories/art.png")
+        background-size: cover
+        background-repeat: no-repeat
+        &_txt:before
+            content: ""
+            display: flex
+            width: 60px
+            height: 60px
+            background-image: url("../img/categories/icons/art-icon.png")
+            background-size: cover
+            background-repeat: no-repeat
+            transform: translateX(-55px)
+    &__theatre
+        display: flex
+        background-image: url("../img/categories/theatre.png")
+        background-size: cover
+        background-repeat: no-repeat
+        &_txt:before
+            content: ""
+            display: flex
+            width: 60px
+            height: 60px
+            background-image: url("../img/categories/icons/theatre-icon.png")
+            background-size: cover
+            background-repeat: no-repeat
+            transform: translateX(-28px)
+    &__finance
+        display: flex
+        background-image: url("../img/categories/finance.png")
+        background-size: cover
+        background-repeat: no-repeat
+        &_txt:before
+            content: ""
+            display: flex
+            width: 60px
+            height: 60px
+            background-image: url("../img/categories/icons/finance-icon.png")
+            background-size: cover
+            background-repeat: no-repeat
+            transform: translateX(-50px)

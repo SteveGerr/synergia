@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="http://allfont.ru/allfont.css?fonts=antiqua" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../dist/app.css">
+    <title>Синергия - центр развития и творчества</title>
+</head>
+<body>
+    <!-- --------------Header-------------- -->
+    <header>
+        <div class="top-menu">
+            <div class="top-menu__logo">
+                <div class="top-menu__logo_img"></div>                
+            </div>
+            <div class="top-menu__wrap-main-menu">
+                <div class="top-menu__contact-mail"><a href="mailto:marswell@yandex.ru">marswell@yandex.ru </a></div>
+                <div class="top-menu__contact-phone"><a href="tel: +78469906103"><p class="phone-code">+7 (846) </p><p class="phone-num">990-61-03</p></a></div>
+                <div class="top-menu__main-menu">
+                    <nav>
+                        <ul>
+                            <li class="active"><a class="active" href="#">Главная</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Мероприятия и направления</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Фотогаллерея</a></li>
+                            <li><a href="#">Партнёры</a></li>
+                            <li><a href="#">Контакты</a></li>           
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <nav>
+                <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+                <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+                <div class="mobile-menu__container">
+                    <ul class="mobile-menu__list">
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">О нас</a></li>
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Мероприятия и направления</a></li>
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Новости</a></li>
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Фотогаллерея</a></li>
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Партнёры</a></li>
+                        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="wrap-topics">
+            <div class="topics">
+                <div class="topics__style"><a href="#">Мода и стиль</a></div>
+                <div class="topics__beauty"><a href="#">Красота и здоровье</a></div>
+                <div class="topics__excursion"><a href="#">Поездки и экскурсии</a></div>
+                <div class="topics__art"><a href="#">Творчество</a></div>
+                <div class="topics__theatre"><a href="#">Театр и выставки</a></div>
+                <div class="topics__finance"><a href="#">Финансовая грамотность</a></div>
+            </div>
+        </div>
+        <div class="breadcrumb">
+            <ul>
+                <li class="home"><a class="active" href="#">Главная</a></li>
+                <li class="trends active"><a href="#">Направления</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- --------------Article-------------- -->
+    <article>
+        <header>
+            <h1>Направления</h1>
+            <p>Образование и хобби играют важнейшие роли в жизни человека.</p>
+            <p>Сегодня без постоянного самообразования сложно добиться успеха в</br> работе, карьере,
+                получить достойное качество жизни.
+            </p>
+        </header>
+        <div class="categories-container">
+            <div class="direction direction__style">
+                <div class="direction__style_img"></div>
+                <div class="direction__txt direction__style_txt">Мода и стиль</div>
+            </div>
+            <div class="direction direction__beauty">
+                <div class="direction__beauty_img"></div>
+                <div class="direction__txt direction__beauty_txt">Красота и здоровье</div>
+            </div>
+            <div class="direction direction__finance">
+                <div class="direction__finance_img"></div>
+                <div class="direction__txt direction__finance_txt">Финансовая</br> грамотность</div>
+            </div>
+            <div class="direction direction__theatre">
+                <div class="direction__theatre_img"></div>
+                <div class="direction__txt direction__theatre_txt">Театр и выставки</div>
+            </div>
+            <div class="direction direction__art">
+                <div class="direction__art_img"></div>
+                <div class="direction__txt direction__art_txt">Творчество</div>
+            </div>
+            <div class="direction direction__excursion">
+                <!-- <div class="direction__excursion_img"></div> -->
+                <div class="direction__txt direction__excursion_txt">Поездки и</br> экскурсии</div>
+            </div>
+        </div>
+    </article>
+    <!-- --------------Consult-------------- -->
+    <div class="consult">
+        <div class="consult__line-wrap"><div class="consult__line"> <div class="consult__line_txt">Консультация
+            <p>По любому направлению для</br>детей и взрослых</p></div> <div class="consult__arrow"></div></div>
+        
+    </div>        
+        <div class="consult__form">
+            <div class="consult__form-wrap">
+                <h2>Оставьте заявку на консультацию</h2>
+                <form action="" method="get">
+                    <label for="">Как к вам обращаться: <span>*</span></label>
+                    <input id="name" type="text" placeholder="">
+                    <div class="green-line-name"></div>
+                    <label for="">Номер телефона: <span>*</span></label>
+                    <input id="phone" type="text" placeholder="">
+                    <div class="green-line-phone"></div>
+                    <label for="">Направление:</label>
+                    <input id="direction" type="text" placeholder="">
+                    <div class="green-line-dir"></div>
+                    <button type="submit"><p>Записаться</p></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------Map----------------- -->    
+    <div class="map-wrap">
+        <div class="map">
+            <div class="map__address">
+                <h2>Наш адрес</h2>
+                <p>г.Самара, Московское шоссе 41, 7</br> этаж, офис 710 </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- --------------Footer--------------- -->
+    <footer>
+        <footer>
+            <div class="footer">
+                <div class="footer__info">
+                    <div class="footer__menu footer-blocks">
+                        <h2>МЕНЮ</h2>
+                        <a href="">Главная</a>
+                        <a href="">О нас</a>
+                        <a href="">Мероприятия и направления</a>
+                        <a href="">Новости</a>
+                        <a href="">Фотогалерея</a>
+                        <a href="">Партнёры</a>
+                        <a href="">Контакты</a>
+                        <a href="">Карта сайта</a>
+                        <a href="">Политика конфиденцальности</a>
+                    </div>
+                    <div class="footer__directions footer-blocks">
+                        <h2>НАПРАВЛЕНИЯ</h2>
+                        <a href="">Мода и стиль</a>
+                        <a href="">Красота и здоровье</a>
+                        <a href="">Финансовая грамотность</a>
+                        <a href="">Театр и выставки</a>
+                        <a href="">Творчество</a>
+                        <a href="">Поездки и экскурсии</a>
+                    </div>
+                    <div class="footer__contacts footer-blocks">
+                        <h2>КОНТАКТЫ</h2>
+                        <p>г. Самара, Московское шоссе</br>41, 7 этаж, офис 710</p>
+                        <a class="footer__phone" href="tel:+78469906103">+7 (846) <span>990-61-03</span></a>
+                        <a class="footer__phone" href="tel:+78466080929">+7 (846) <span>608-09-29</span></a>
+                        <a class="footer__phone" href="tel:+78462606103">+7 (846) <span>260-61-03</span></a>
+                        <a class="footer__mail" href="mailto:marswell@yandex.ru">marswell@yandex.ru</a>
+                    </div>
+                </div>
+                <div class="footer__logo footer-blocks">
+                    <div class="footer__logo_img">
+    
+                    </div>
+                    <div class="footer__logo_copyright">
+                        &copy; 2010-2018 АНО ЦРТ "СИНЕРГИЯ"
+                    </div>
+                </div>
+            </div>
+        </footer> 
+    </footer>
+ 
+    
+
+
+
+ <!-- ---------------------SCRIPTS--------------------- -->
+    <script src="/dist/app.js"></script>
+    
+</body>
+</html>
